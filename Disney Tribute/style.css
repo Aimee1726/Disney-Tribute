@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', 'Sans-serif';
+  background-color: #959693; 
+}
+
+h1, h3, h4 {
+  color: #800020;
+}
+
+.header {
+  background-color: black;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+ .text-content {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.biography {
+  display: flex;
+}
+
+.biography, h3 {
+  padding-left: 30px;
+
+}
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+}
+
+.bio-img {
+  display: flex;
+  align-self: flex-end;
+  justify-self: center;
+  margin: auto;
+  padding-top: 60px;  
+}
+
+
+.achievements { 
+  display: flex;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.achievements img {
+  display: flex;
+  align-self: flex-start;
+  justify-self: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.achievements, h3 {
+  padding-right: 30px;
+}
+.achievements-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 200px;
+  width: 50%;
+}
+
+.more-info {
+  text-align: center;
+  padding-top: 20px;
+}
+.more-info, p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.references, h3{
+  padding-left: 30px;
+}
+ .references, a {
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+} 
+
+.references .books {
+  color: black;
+  cursor: default;
+}
+
+.footer {
+background-repeat: no-repeat;
+text-align: center;
+padding-top: 30px;
+}
